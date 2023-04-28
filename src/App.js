@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Chat from './chatApp/chat';
-import Hello from './hello';
-import './hello.css'
-import './chatApp/chat.css';
+// import Chat from './chatApp/chat';
+// import Hello from './hello';
+// import './hello.css'
+// import './chatApp/chat.css';
+import NewChat from './NewChatApp/NewChat';
+import './NewChatApp/NewChat.css';
 
 function App() {
   return (
@@ -23,12 +25,22 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <>
-     <h1 class="main-head-chat">ChatAPP</h1>
-    <Chat name="sikun"  desc="Hi..How are you." />
-    <Chat name="Sradha" desc="I am Fine.. What about you" />
-    <Chat name="SWEETY" desc="I am also good" />
 
+    //for ChatApp
+    // <>
+    //  <h1 class="main-head-chat">ChatAPP</h1>
+    // <Chat name="sikun"  desc="Hi..How are you." />
+    // <Chat name="Sradha" desc="I am Fine.. What about you" />
+    // <Chat name="SWEETY" desc="I am also good" />
+    // <Chat name="Sankar" desc="hi sweety..!" />
+    // </>
+
+    //for NewChatApp
+    <>
+     <NewChat name="Sikun" time="7.00 PM" text="How are you?" />
+     <NewChat name="Chandan" time="7.15 PM" text="I am good.." />
+     <NewChat name="Sikun" time="7.29 PM" text="Good.." />
+     <NewChat name="Chandan" time="7.35 PM" text="What about you.." />
     </>
 
     // <Hello />

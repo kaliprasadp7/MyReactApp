@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.new-chat-container{
+    display: flex;
+    gap: 20px;
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    margin: 20px;
+}
+.right > div{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
