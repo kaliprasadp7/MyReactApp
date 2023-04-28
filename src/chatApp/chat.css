@@ -1,0 +1,16 @@
+.chat-container{
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    width:200px;
+    height: 100px;
+    margin:30px;
+    padding: 30px;
+}
+h1{
+    color: white;
+}
+p{
+    color: orange;
+}
