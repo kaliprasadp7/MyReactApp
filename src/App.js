@@ -6,6 +6,7 @@ import './App.css';
 // import './chatApp/chat.css';
 import NewChat from './NewChatApp/NewChat';
 import './NewChatApp/NewChat.css';
+import messages from './NewChatApp/messagesData';
 
 function App() {
   return (
@@ -37,10 +38,17 @@ function App() {
 
     //for NewChatApp
     <>
-     <NewChat name="Sikun" time="7.00 PM" text="How are you?" />
+     {/* <NewChat name="Sikun" time="7.00 PM" text="How are you?" />
      <NewChat name="Chandan" time="7.15 PM" text="I am good.." />
      <NewChat name="Sikun" time="7.29 PM" text="Good.." />
-     <NewChat name="Chandan" time="7.35 PM" text="What about you.." />
+     <NewChat name="Chandan" time="7.35 PM" text="What about you.." /> */}
+
+      {messages.map((item)=>{
+          return(
+            <NewChat name={item.sender} time={item.time} text={item.message} />
+          );
+      })}
+
     </>
 
     // <Hello />
