@@ -24,8 +24,11 @@ function App() {
     //   </header>
     // </div>
     <>
+     <h1 class="main-head-chat">ChatAPP</h1>
     <Chat name="sikun"  desc="Hi..How are you." />
-    <Chat name="Chadan" desc="I am Fine.. What about you" />
+    <Chat name="Sradha" desc="I am Fine.. What about you" />
+    <Chat name="SWEETY" desc="I am also good" />
+
     </>
 
     // <Hello />
